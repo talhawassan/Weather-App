@@ -14,6 +14,12 @@ body {
     flex-grow: 1;
 }
 
+.main-content p {
+    color: #888888;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+
 footer {
     color: #888888;
     border-top: 1px solid #eeeeee;
