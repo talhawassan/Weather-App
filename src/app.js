@@ -65,7 +65,7 @@ app.get('/weather', (req, res) => {
     })
 })
 
-const port = 3002
+const port = process.env.PORT || 3002
 
 app.listen(port, () => {
     console.log(`server is up on port ${port}`)
